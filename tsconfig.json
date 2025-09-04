@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",  // Or higher (e.g., "es2017", "esnext")
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "sourceMap": true, // Generate sourcemaps for debugging
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
